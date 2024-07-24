@@ -1,0 +1,130 @@
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+.navbar {
+  background-color: #f0f0f0;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  height: 40px;
+  vertical-align: middle;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-li {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #0d0000;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #f52500;
+}
+
+.register-btn {
+  /* background-color: #ff004c; */
+  color: #d51f4f;
+  border: 2px solid;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+  background-color: #0205c1;
+}
+
+
+.section-below {
+  background-image: url(https://png.pngtree.com/background/20231017/original/pngtree-d-rendering-of-abstract-purple-coding-background-with-mock-up-and-picture-image_5592043.jpg);
+  background-color: hsl(0, 0%, 95%);
+  padding: 200px 90px;
+  text-align: justify;
+}
+
+.section-title {
+  color: #f0f0f0;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  font-weight: bold;
+  color: #f0f0f0;
+  font-size: 1.3em;
+}
+
+.banner {
+  max-width: 300px;
+  margin-left: 800px; 
+  margin-top: -200px;
+}
+
+.banner img {
+  width: 100%; 
+  height: auto; 
+  max-width: 100%; 
+  display: block; 
+}
+
+.box1 {
+  float: left;
+  background: rgb(250, 250, 250);
+  width: 25%;
+  height: 280px;
+}
+
+.box2 {
+  float: left;
+  background: rgb(255, 255, 255);
+  width: 50%;
+  height: 280px;
+}
+
+.box3 {
+  float: right;
+  background: rgb(255, 255, 255);
+  width: 25%;
+  height: 280px;
+}
